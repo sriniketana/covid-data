@@ -22,6 +22,7 @@ app.get('/', (req, res) => {
   res.send("Hello from Appsody!");
 });
  
+// Get details of number of COVID-19 positive cases
 app.get('/getPatients', passport.authenticate('mobilefirst-strategy', {
   session: false,
   scope: 'accessRestricted'
