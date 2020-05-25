@@ -27,7 +27,7 @@ app.get('/getPatients', passport.authenticate('mobilefirst-strategy', {
   scope: 'accessRestricted'
 }), (req, res, next ) => {
 res.send('Covid cases'  + JSON.stringify(data) );
-
+// Changes to source code
 });
 
 module.exports.app = app;
