@@ -22,6 +22,9 @@ app.get('/', (req, res) => {
   res.send("Hello from Appsody!");
 });
  
+/* Every code needs good commenting practices *
+* This endpoint returns the number of active COVID-19 cases 
+*/
 app.get('/getPatients', passport.authenticate('mobilefirst-strategy', {
   session: false,
   scope: 'accessRestricted'
