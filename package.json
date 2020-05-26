@@ -4,6 +4,7 @@
   "description": "Simple Node.js Express application",
   "license": "Apache-2.0",
   "main": "app.js",
+  "start": "app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/appsody/stacks.git",
