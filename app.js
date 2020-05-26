@@ -32,4 +32,6 @@ app.get('/getPatients', passport.authenticate('mobilefirst-strategy', {
 res.send('Covid cases'  + JSON.stringify(data) );
 });
 
+app.listen(3000);
+
 module.exports.app = app;
