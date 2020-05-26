@@ -4,7 +4,6 @@
   "description": "Simple Node.js Express application",
   "license": "Apache-2.0",
   "main": "app.js",
-  "start": "node app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/appsody/stacks.git",
@@ -15,6 +14,7 @@
     "passport-mfp-token-validation": "latest"
   },
   "scripts": {
+    "start": "node app.js",
     "test": "mocha"
   },
   "devDependencies": {
